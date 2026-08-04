@@ -104,36 +104,28 @@ h2{
     gap:18px;
 }
 
-.company{
-    display:flex;
-    align-items:flex-start;
-    gap:20px;
-    margin-bottom:40px;
+.company {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 
-.company:last-child{
-    margin-bottom:0;
+.company-info strong {
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 4px;
 }
 
-.company-info{
-    flex:1;
+.position {
+    display: block;
+    margin-bottom: 16px;
+    color: #d9d9d9;
 }
 
-.company-info strong{
-    display:block;
-    font-size:1.3rem;
-    margin-bottom:4px;
-}
-
-.position{
-    display:block;
-    margin-bottom:12px;
-    color:#d9d9d9;
-}
-
-.company-info ul{
-    margin:0;
-    padding-left:20px;
+.company-info ul {
+    margin: 0;
+    padding-left: 20px;
 }
 
 .logo{
@@ -278,9 +270,10 @@ h2{
     <h2>Professional Experience</h2>
 
     <div class="company">
-
 		<img class="logo"
 			src="aptiv_logo_color_rgb.svg">
+
+		<div class="company-info">
             <strong>Aptiv</strong><br>
 			<span class="position">
             	Remanufacturing Project Coordinator
@@ -294,13 +287,13 @@ h2{
                 <li>Partner development support</li>
             </ul>
         </div>
-
     </div>
 
     <div class="company">
-
 		<img class="logo"
 			src="logo_kosciuszko.jpg">
+
+		<div class="company-info">
             <strong>Housing Cooperative T. Kościuszko</strong><br>
             <span class="position">
 				Assistant Manager of the Technical Department
@@ -314,9 +307,7 @@ h2{
                 <li>Procurement and contractor support</li>
             </ul>
         </div>
-
     </div>
-
 </div>
 <div class="card">
 
