@@ -106,18 +106,22 @@ h2{
 
 .company{
     display:flex;
-    gap:14px;
     align-items:flex-start;
-    margin:24px 0;
+    gap:18px;
+    margin-bottom:50px;
 }
 
-.logo,.issuer{
+.company:last-child{
+    margin-bottom:0;
+}
+
+.logo{
     width:64px;
     height:64px;
-    background:#fff;
-    border-radius:10px;
-    padding:4px;
     object-fit:contain;
+    background:white;
+    border-radius:12px;
+    flex-shrink:0;
 }
 
 .linkedin{
